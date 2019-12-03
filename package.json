@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-todo",
+  "version": "1.0.0",
+  "description": "Ejercicio de desarrollo de APIs REST con Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgonzaru/nodejs-todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "cgonzaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgonzaru/nodejs-todo/issues"
+  },
+  "homepage": "https://github.com/cgonzaru/nodejs-todo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
